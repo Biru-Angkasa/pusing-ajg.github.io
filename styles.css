@@ -1,0 +1,287 @@
+/* style.css */
+
+html,
+body {
+  font-family: Arial, sans-serif;
+  width: 480px;
+  margin: 0;
+  padding: 0;
+}
+.papan {
+  padding: 1.4rem;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(165, 42, 42, 0.39);
+}
+.papan h3 {
+  content: "";
+}
+.papan .lagu {
+  background-color: black;
+  color: #f0f0f0;
+  width: 150px;
+  height: 50px;
+  font-size: 1.4rem;
+  border-radius: 100px;
+  font-style: italic;
+  font-weight: bolder;
+}
+.head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 7%;
+  padding-top: 250px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 250px;
+}
+.head .head-samping {
+  background-color: #f7f7f7;
+  display: inline-block;
+  max-width: 300px;
+  min-width: 150px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.head .head-samping .tengah {
+  justify-content: center;
+  display: flex;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-style: italic;
+  font-size: 20px;
+}
+.head .head-samping p {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  margin-top: 10px;
+}
+.container {
+  display: flex;
+  padding: 2rem;
+  padding-top: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+}
+.container .header {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 302px;
+  align-items: center;
+  box-shadow: 4px 4px 4px 4px rgba(114, 107, 107, 0.411);
+  padding-top: 0;
+  padding-left: 0;
+  border: 2px solid grey;
+  background-color: #d6d0d096;
+}
+.container .header .gambar {
+  padding: 0;
+  object-fit: cover;
+}
+.container .header marquee {
+  border-bottom: 2px solid grey;
+}
+.container .header marquee h1 {
+  font-size: 24px;
+}
+.container .header img {
+  object-fit: cover;
+  padding: 10px;
+  padding-bottom: 10px;
+  margin-top: 0;
+  font-style: normal;
+  text-align: justify;
+}
+.kotak {
+  display: flex;
+  padding: 20px;
+  padding-top: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 180px;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+}
+.kotak10 {
+  display: flex;
+  padding: 20px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+}
+.kotak20 {
+  display: flex;
+  padding: 20px;
+  padding-top: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+}
+.kotak10 .kotak-ciri {
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  max-width: 300px;
+  min-width: 150px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.kotak10 .kotak-ciri .typing-animation {
+
+  font-size: 1rem;
+  overflow: hidden; /* Agar teks yang keluar dari kotak tersembunyi */
+  border-right: .15em solid rgb(0, 0, 0); /* Garis "cursor" */
+  white-space: nowrap; /* Teks tetap dalam satu baris */
+  margin: 0 auto; /* Tengah secara horizontal */
+  letter-spacing: .15em; /* Jarak antar huruf */
+  animation: typing 10s steps(100, end), blink-caret .5s step-end infinite; /* Animasi mengetik dan blink cursor */
+}
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+.kotak20 .kotak-ciri {
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  max-width: 300px;
+  min-width: 150px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.kotak20 .kotak-ciri .typing-animation {
+
+  font-size: 1rem;
+  overflow: hidden; /* Agar teks yang keluar dari kotak tersembunyi */
+  border-right: .15em solid rgb(0, 0, 0); /* Garis "cursor" */
+  white-space: nowrap; /* Teks tetap dalam satu baris */
+  margin: 0 auto; /* Tengah secara horizontal */
+  letter-spacing: .15em; /* Jarak antar huruf */
+  animation: typing 10s steps(100, end), blink-caret .5s step-end infinite; /* Animasi mengetik dan blink cursor */
+}
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+.kotak .kotak-ciri {
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  max-width: 300px;
+  min-width: 150px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.kotak .kotak-ciri .typing-animation {
+
+  font-size: 1rem;
+  overflow: hidden; /* Agar teks yang keluar dari kotak tersembunyi */
+  border-right: .15em solid rgb(0, 0, 0); /* Garis "cursor" */
+  white-space: nowrap; /* Teks tetap dalam satu baris */
+  margin: 0 auto; /* Tengah secara horizontal */
+  letter-spacing: .15em; /* Jarak antar huruf */
+  animation: typing 10s steps(100, end), blink-caret .5s step-end infinite; /* Animasi mengetik dan blink cursor */
+}
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+.kotak1 {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color: #f0f0f0;
+  background-color: #000000;
+}
+.gambar {
+  display: flex;
+  padding-top: 5px;
+  justify-content: center;
+  width: max-content;
+  gap: 10px;
+  object-fit: cover;
+
+}
+.geser {
+  width: 100%;
+  overflow-x: scroll;
+  object-fit: cover;
+}
+.geser::-webkit-scrollbar {
+  display: none;
+}
+.gambar .item {
+  object-fit: cover;
+}
+/* styles.css */
+
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+  animation: fade 1.5s;
+}
+
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.back {
+  padding-top: 400px;
+  padding-bottom: 40px;
+}
+
+footer {
+  background-color: #000000;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: #ffffff;
+}
+footer p {
+  text-align: start;
+}
